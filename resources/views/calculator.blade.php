@@ -18,12 +18,12 @@
       </div>
     </section>
 
-    <select name="selectOption" id="selectOption" class="form-select selectStyles" aria-label="Default select example">
-        <option selected>Choose The Operator</option>
-        <option value="+">SUM</option>
-        <option value="-">SUBTRACTION</option>
-        <option value="*">MULTIPLICATION</option>
-        <option value="/">DIVISION</option>
+    <select name="selectOption" id="selectOption" class="form-select selectStyles"   aria-label="Default select example">
+        <option  selected>Choose The Operator</option>
+        <option  value="+">SUM</option>
+        <option  value="-">SUBTRACTION</option>
+        <option  value="*">MULTIPLICATION</option>
+        <option  value="/">DIVISION</option>
       </select>
      
       <h1 class="textStyle">RESULT: {{$result}}</h1>

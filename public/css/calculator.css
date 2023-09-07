@@ -37,6 +37,16 @@
     border: 2px solid black;
 }
 
+.selectStyles:active, .selectStyles:focus {
+
+    box-shadow: 2px 2px 2px  rgb(180, 131, 180) !important;
+    border: 2px solid black !important;
+    outline: none !important;
+    background-color: white !important;
+}
+
+
+
 .borderContainer {
 
     border: 2px solid black;
