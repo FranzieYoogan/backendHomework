@@ -1,0 +1,51 @@
+.footerStyle {
+
+    background: linear-gradient(rgb(233, 183, 233), white) ;
+    border-top: 2px solid black;
+}   
+
+.text1Style {
+
+    color: black !important;
+    font-size: 20px;
+
+}
+
+.linkStyle {
+    color: black ;
+
+  
+}
+
+.spanLink {
+    color: gray !important;
+    transition: 1s;
+ 
+
+}
+
+.spanLink:hover {
+    color: white !important;
+    border-bottom: 1px solid black;
+    text-shadow: 1px 1px 1px  black !important;
+}
+
+
+.linkIconStyle {
+
+    color: black;
+
+}
+
+.btn-outline {
+
+    color: black;
+    border: black solid 0.3px;
+    position: relative;
+    top: 5px;
+}
+
+.btn-outline:hover {
+
+   box-shadow: 3px 3px 3px  black !important;
+}

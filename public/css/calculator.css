@@ -1,0 +1,112 @@
+.containerForm {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.containerButton {
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+
+
+.buttonStyle {
+
+    background-color: transparent !important;
+    font-weight: 900;
+    color: black;
+ 
+}
+
+.buttonStyle:hover {
+
+    background: linear-gradient(rgb(233, 183, 233), white) !important;
+    color: rgb(234, 169, 247);
+    font-weight: 900;
+    
+}
+
+.form-control:active, .form-control:focus {
+
+    box-shadow: 2px 2px 2px  rgb(180, 131, 180) !important;
+    border: 2px solid black;
+}
+
+.borderContainer {
+
+    border: 2px solid black;
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(233, 183, 233), white);
+}
+
+.inputMargin {
+
+    margin-bottom: 1em;
+
+}
+
+.selectStyles {
+
+    width: 300px;
+
+}
+
+.buttonStyle {
+
+    background-color: transparent !important;
+    font-weight: 900;
+    color: black;
+    border: 2px solid black !important;
+}
+
+.buttonStyle:hover {
+
+    background: linear-gradient(rgb(233, 183, 233), white) !important;
+    color: rgb(234, 169, 247);
+    font-weight: 900;
+    
+}
+
+.form-control {
+
+    width: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-control:active, .form-control:focus {
+
+    box-shadow: 2px 2px 2px  rgb(180, 131, 180) !important;
+    border: 2px solid black;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.borderStyle {
+
+ 
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(233, 183, 233), white);
+
+}
+
+.textStyle {
+
+    margin-top: 1em;
+    font-weight: 900;
+}

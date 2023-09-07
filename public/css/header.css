@@ -1,0 +1,41 @@
+.navStyles {
+
+    background: linear-gradient(rgb(233, 183, 233), white) !important;
+    color: black !important;
+    border-bottom: black 2px solid;
+}
+
+.navbar-collapse {
+        display: flex;
+        justify-content: end;
+}
+
+.logo {
+
+    height: auto;
+    max-height: 50px;
+    background-color: rgb(240, 224, 248);
+    border: black 2px solid;
+    border-radius: 30px;
+    background: linear-gradient(rgb(233, 183, 233), white);
+}
+
+.nav-link {
+
+    color: black;
+    font-weight: 900;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+ 
+
+}
+
+.nav-item {
+
+    margin-left: 1em !important;
+}

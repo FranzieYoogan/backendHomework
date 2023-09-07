@@ -1,0 +1,27 @@
+.borderStyle {
+
+    border: 2px solid black;
+    padding: 50px;
+    background: linear-gradient(to right, rgb(233, 183, 233), white ) !important;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.textStyle {
+
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 3em;
+    position: absolute;
+    bottom: auto;
+}
+

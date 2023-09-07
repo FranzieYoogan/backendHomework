@@ -1,0 +1,51 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 13em;
+  
+}
+
+.formStyle {
+
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(233, 183, 233), white);
+}
+
+.containerButton {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+.form-control {
+
+    text-align: center;
+    font-weight: bold;
+}       
+
+.buttonStyle {
+
+    background-color: transparent !important;
+    font-weight: 900;
+    color: black;
+    border: 1px solid black;
+}
+
+.buttonStyle:hover {
+
+    background: linear-gradient(rgb(233, 183, 233), white) !important;
+    color: rgb(234, 169, 247);
+    font-weight: 900;
+    
+}
+
+.form-control:active, .form-control:focus {
+
+    box-shadow: 2px 2px 2px  rgb(180, 131, 180) !important;
+    border: 2px solid black;
+}
